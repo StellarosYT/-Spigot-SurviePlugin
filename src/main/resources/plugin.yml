@@ -1,0 +1,48 @@
+name: SurviePlugin
+version: ${project.version}
+main: net.mythigame.survieplugin.SurviePlugin
+api-version: 1.17
+authors: [ Stellaros ]
+description: Plugin du survie de MGC
+website: https://www.mythigame.net/
+commands:
+  info:
+    description: Vous permet d'obtenir vos informations de compte
+    aliases:
+      - inf
+    usage: /info
+  vanish:
+    description: Vous permet de vous rendre invisible
+    aliases:
+      - v
+    usage: /vanish [(<player>)]
+  god:
+    description: Vous permet de vous rendre invincible
+    usage: /god [(<player>)]
+  gamemode:
+    description: Vous permet de changer de mode de jeu
+    aliases:
+      - gm
+    usage: /gamemode [(<player>)] <[creative/adventure/survival/spectator]>
+  fly:
+    description: Vous permet de voler ou d'arrêter de voler
+    usage: /fly [(<player>)]
+  broadcast:
+    description: Vous permet de faire une annonce au serveur
+    aliases:
+      - br
+      - annonce
+      - announce
+      - alert
+    usage: /broadcast
+  heal:
+    description: Vous permet de soigner et nourrir quelqu'un
+    usage: /heal [(<player>)]
+  feed:
+    description: Vous permet de nourrir quelqu'un
+    usage: /feed [(<player>)]
+  coolkill:
+    description: Vous permet de tuer quelqu'un avec classe
+    aliases:
+      - ck
+    usage: /coolkill <player>
